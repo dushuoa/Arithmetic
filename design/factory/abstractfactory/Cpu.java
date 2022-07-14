@@ -7,7 +7,7 @@ package com.atguigu.arithmetic.design.factory.abstractfactory;
  */
 public interface Cpu {
     void run();
-    
+
     class Cpu650 implements Cpu{
         @Override
         public void run() {
@@ -20,6 +20,14 @@ public interface Cpu {
         @Override
         public void run() {
             System.out.println("888更好");
+        }
+    }
+
+    class Cpu999 implements Cpu{
+
+        @Override
+        public void run() {
+            System.out.println("999是最强的");
         }
     }
 }

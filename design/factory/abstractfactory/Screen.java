@@ -22,4 +22,12 @@ public interface Screen {
             System.out.println("6寸.....");
         }
     }
+
+    class Screen7 implements Screen{
+
+        @Override
+        public void size() {
+            System.out.println("7寸........");
+        }
+    }
 }
